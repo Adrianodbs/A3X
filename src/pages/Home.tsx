@@ -1,8 +1,10 @@
+import Cards from '../components/Cards'
+
 export default function Home() {
   return (
     <div>
-      <div className="grid grid-cols-2 p-4 gap-3 items-center">
-        <h1 className="text-center text-[48px] font-[900]">
+      <section className="md:grid md:grid-cols-2 flex flex-col p-4 gap-3 items-center">
+        <h1 className="text-center md:text-[40px] text-[32px] font-[900]">
           Desenvolvimento de{' '}
           <span className="text-green-600">páginas web e mobile</span>, com foco
           na melhor experiência para o cliente.
@@ -24,7 +26,8 @@ export default function Home() {
             de qualquer campanha online.
           </h4>
         </div>
-      </div>
+      </section>
+      <Cards />
     </div>
   )
 }
