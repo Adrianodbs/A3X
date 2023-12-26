@@ -20,7 +20,7 @@ export default function Header() {
         </Link>
         <Link
           to="/budget"
-          className="bg-green-300 rounded-md p-2 font-semibold text-white-50 hover:bg-white-50 hover:text-green-300 transition duration-300"
+          className="bg-green-300 rounded-md p-2 font-semibold text-white-50 hover:bg-green-200 hover:text-green-900 transition duration-300"
         >
           Solicitar orçamento
         </Link>
