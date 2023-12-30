@@ -1,4 +1,5 @@
 import Cards from '../components/Cards'
+import Contact from '../components/Contact'
 import InfoSection from '../components/InfoSection'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <InfoSection />
       <Cards />
+      <Contact />
     </div>
   )
 }
