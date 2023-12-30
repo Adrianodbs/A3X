@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <div className="w-full p-4 items-center justify-center flex flex-col my-6">
+    <div className="w-full p-4 items-center justify-center flex flex-col my-6 text-center">
       <h1 className="text-[32px] font-black">
         Você tem <span className="text-green-600">perguntas?</span>
       </h1>
